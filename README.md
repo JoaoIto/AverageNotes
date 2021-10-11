@@ -14,3 +14,5 @@ It was made in pure CSS, without framework or library codes... I prefer make wit
 - CSS "I preferred separate the files for each part of the site, separating into folders for each one"
 - HTML5
 - File icons in (https://www.flaticon.com/)
+
+<img width: "100%" height: "400px" src="./assets/img/preview.jpeg">
