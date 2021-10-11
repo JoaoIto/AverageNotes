@@ -1,7 +1,6 @@
 # AverageNotes
 Website made by Joao, for a calc average for a notes...
 
-# 
 
 ## Description 
 
