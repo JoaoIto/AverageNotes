@@ -1,4 +1,4 @@
-# AverageNotes
+# AverageNotes <img id="icon-title" src="./assets/img/Notes.png" alt="Notes Icon">
 Website made by Joao, for a calc average for a notes...
 
 
