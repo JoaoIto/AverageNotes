@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 170px;
+    width: 100%;
+    background-color: var(--background-header);
+    color: #fff;
+}

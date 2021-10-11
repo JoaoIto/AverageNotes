@@ -1,0 +1,20 @@
+.inputs{
+    color: var(--inputs-label);
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-value{
+    border: 2px solid var(--inputs-border);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.input-value::placeholder{
+    font-family: monospace;
+    color: var(--inputs-placeholder);
+}

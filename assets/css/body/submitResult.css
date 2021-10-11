@@ -1,0 +1,35 @@
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    color: var(--inputs-label);
+}
+
+#submit{
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    background-color: var(--background-submit);
+    border: solid 2px var(--inputs-border);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s all;
+}
+
+#submit:hover{
+    background-color: var(--inputs-border);
+    transform: scale(1.1);
+}
+
+#submit:active{
+    background-color: var(--background-footer);
+    transform: scale(0.95);
+    border: solid 2px var(--background-active-submit);
+}

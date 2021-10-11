@@ -1,0 +1,10 @@
+#title{
+    font-family: 'Akronim';
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+#icon-title{
+    height: 40px;
+    margin-left: 10px;
+}

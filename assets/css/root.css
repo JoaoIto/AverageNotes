@@ -1,0 +1,15 @@
+:root{
+    --background-header: rgb(119, 166, 253);
+    --background-container: rgb(231, 230, 230);
+    --background-footer: rgb(71, 134, 251);
+
+
+    --title-container: rgb(0, 138, 202);
+
+    --inputs-label: rgb(80, 80, 80);
+    --inputs-border: rgb(56, 170, 223);
+    --inputs-placeholder: rgb(180, 180, 180);
+
+    --background-submit: rgb(5, 155, 255);
+    --background-active-submit: rgb(7, 118, 192);
+}

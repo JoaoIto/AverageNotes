@@ -5,48 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
-    rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
-    crossorigin="anonymous">
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title>Conversor de Média</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+
+    <!--Reset CSS and Base Styles-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    
+    <!--Header Styles CSS-->
+    <link rel="stylesheet" href="./assets/css/header/style.css">
+    <link rel="stylesheet" href="./assets/css/header/title.css">
+    <link rel="stylesheet" href="./assets/css/header/descriptionTitle.css">
+    <!--Body Styles CSS-->
+    <link rel="stylesheet" href="./assets/css/body/style.css">
+    <link rel="stylesheet" href="./assets/css/body/container.css">
+    <link rel="stylesheet" href="./assets/css/body/inputs.css">
+    <link rel="stylesheet" href="./assets/css/body/submitResult.css">
+
+    <link rel="shortcut icon" href="./assets/img/education.png" type="image/x-icon">
+    <title>Média de Notas</title>
 </head>
-
 <body>
-    <div class="container">
-        <h1 class="page-title">
-            Calculadora de média</h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
-            class="page-logo" alt="">
-        <br>
-        <label for="notas">Digite a sua nota! 1° Bimestre</label>
-        <input type="text" name="notas" id="nota1" placeholder="Nota:">
-        <br>
-        <label for="notas">Digite a sua nota! 2° Bimestre</label>
-        <input type="text" name="notas" id="nota2" placeholder="Nota:">
-        <br>
-        <label for="notas">Digite a sua nota! 3° Bimestre</label>
-        <input type="text" name="notas" id="nota3" placeholder="Nota:">
-        <br>
-        <br>
-
-        <button class="btn btn-info" id="media-calc">Calcular média</button>
-        <br>
-        <br>
-        <h2 id="media"></h2>
-    </div>
-    <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
+    <header>
+        <h1 id="title">
+            Media Calc
+            <img id="icon-title" src="./assets/img/Notes.png" alt="Notes Icon">
+        </h1>
+        <h3 id="desc-title">
+            Website made for calc notes to school!
+        </h3>
+    </header>
+    <main>
+        <div class="container">
+            <div class="title">
+                <h2 id="title-container"><img id="icon-desc_title" src="./assets/img/school.png"
+                        alt="Icon to school">Notes:</h2>
+            </div>
+            <div class="inputs">
+                <div class="input">
+                    <label for="nota1Value">
+                        Type here your note 1:
+                    </label>
+                    <input class="input-value" type="number" name="nota1Value" id="note1" placeholder="Note:">
+                </div>
+                <div class="input">
+                    <label for="nota1Value">
+                        Type here your note 2:
+                    </label>
+                    <input class="input-value" type="number" name="nota2Value" id="note2" placeholder="Note:">
+                </div>
+                <div class="input">
+                    <label for="nota1Value">
+                        Type here your note 3:
+                    </label>
+                    <input class="input-value" type="number" name="nota3Value" id="note3" placeholder="Note:">
+                </div>
+            </div>
+            <div class="submit">
+                    <button type="submit" id="submit">Calc</button>
+                <h3 id="result">Final Note: </h3>
+            </div>
+        </div>
+    </main>
     <script src="./assets/js/script.js"></script>
 </body>
 
